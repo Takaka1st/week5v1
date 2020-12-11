@@ -1,0 +1,36 @@
+
+.admins{
+  margin-bottom: 60px;
+}
+.admins_table{
+  width: 1000px;
+  border-bottom: 1px solid black;
+}
+.admins_table th{
+  border-bottom: 1px solid black;
+}
+.admins_table td{
+  border-bottom: 1px solid #CDDDCD;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+.admins_table span{
+  vertical-align: middle;
+}
+.admins_visible span,.admins_edit span{
+  visibility: hidden;
+}
+
+/*翻頁*/
+.pagination {
+  align-items: center;
+  justify-content: flex-end;
+}
+.page-link{
+  color: #2A8356;
+  border: 1px solid #2A8356 
+}
+.page-link:hover{
+  background: #2A8356;
+  color: white;
+}

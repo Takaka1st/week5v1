@@ -1,0 +1,203 @@
+
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
+  src: local('Material Icons'),
+    local('MaterialIcons-Regular'),
+    url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
+    url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
+    url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
+}
+@import "_mainAdmin"; 
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+*{
+  line-height: 1.5;
+}
+.wrapper{
+  display: flex;
+}
+.conrainer{
+  padding: 32px;
+  margin: 0 auto;
+}
+.leftmenu{
+  background: #EDF4EE;
+  width: 20%;
+}
+.content_right{
+  width: 80%;
+}
+.header{
+  height: 93px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*header左邊*/
+.header_left{
+  display: flex;
+}
+.header_left h1{
+  font-size: 24px;
+  margin-right: 27px;
+}
+.header_btn h4{
+  font-size: 16px;
+}
+.header_btn h4 span{
+  color: #2A8356;
+}
+.header_left .material-icons{
+  vertical-align: middle;
+}
+.header button:hover{
+  color: #2A8356;
+}
+.btn.focus, .btn:focus{
+  box-shadow: none;
+}
+
+/*彈跳表單*/
+/*帳密*/
+.account input{
+  display: block;
+  width: 100%;
+  padding: 8px;
+}
+/*驗證*/
+.verification_btn{
+  color: #2A8356;
+  text-align: center;
+  border: 1px solid #CDDDCD;
+}
+.verification input{
+  color: #2A8356;
+  background: white;
+  border: 1px solid #CDDDCD;
+  width: 100%;
+  font-weight: bold;
+  padding: 16px;
+}
+.verification input:hover{
+  background: #2A8356;
+  color: white;
+}
+.verification h4 span{
+  color: #E3006E;
+  margin-right: 9px;
+}
+/*Access_Level*/
+.access_level select{
+  width: 100%;
+  padding: 16px;
+}
+.modal h1{
+  font-size: 24px;
+}
+.modal-body h3{
+  font-size: 20px;
+}
+.account label{
+  font-size: 14px;
+}
+.verification h4{
+  font-size: 16px;
+}
+.custom_access_box label{
+  display: block;
+}
+.modal-footer button{
+  color: #2A8356;
+  border: 1px solid #2A8356;
+  border-radius: 5%;
+  padding: 8px 31px;
+}
+.btn_add{
+  background: #2A8356;
+}
+.btn_add span{
+  color: white;
+}
+
+/*header右邊*/
+.header_right_icon li{
+  display: inline-block;
+  margin-left: 24px;
+}
+
+/*左側選單*/
+.logo a{
+  background: url(https://hexschool.github.io/webLayoutTraining1st/week5/logo-ANSWER.svg) no-repeat;
+  display: block;
+  height: 40px;
+  width: 151px;
+	text-indent: 101%;
+	overflow: hidden;
+  white-space: nowrap;
+}
+.logo{
+  margin-bottom: 32px;
+}
+.leftmenu_menu{
+  margin-bottom: 362px;
+}
+.leftmenu_menu li{
+  margin-bottom: 26px;
+}
+.leftmenu_menu a{
+  color: black;
+  font-weight: bold;
+  margin-left: 16px;
+}
+.leftmenu span{
+  vertical-align: middle;
+}
+
+/*使用者*/
+.user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.user_text{
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 16px;
+}
+.user h4{
+  font-size: 16px;
+  margin-bottom: 0;
+}
+.user p{
+  font-size: 14px;
+  margin-bottom: 0;
+}
